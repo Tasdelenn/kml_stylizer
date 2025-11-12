@@ -1,27 +1,39 @@
-# KML Birleştirme ve Stil Aracı
+# KML Merger & Styler
 
-Bu web uygulaması, birden fazla KML dosyasını yüklemenize, her biri için çizgi rengi, çizgi kalınlığı, dolgu rengi ve dolgu opaklığı gibi stilleri özelleştirmenize ve ardından tüm dosyaları tek bir KML dosyasında birleştirip indirmenize olanak tanır.
+This is a browser-based web application that allows you to upload multiple KML files, customize their styles (line color, width, fill color, and opacity), and merge them into a single downloadable KML file.
 
-Tüm işlemler sunucuya herhangi bir dosya yüklenmeden, tamamen sizin tarayıcınızda (client-side) gerçekleşir. Bu sayede verileriniz güvende kalır.
+All file processing is done entirely on the client-side within your browser. No data or files are ever uploaded to a server, ensuring your privacy.
 
-## Özellikler
+## Features
 
-*   Sürükle-bırak veya dosya seçme yoluyla çoklu KML dosyası yükleme.
-*   Her KML dosyası için ayrı ayrı stil belirleme:
-    *   Çizgi Rengi
-    *   Çizgi Kalınlığı
-    *   Dolgu Rengi
-    *   Dolgu Opaklığı
-*   Seçilen KML dosyalarını tek bir dosyada birleştirme.
-*   İsteğe bağlı olarak bir çıktı dosyası adı belirleme.
-*   Koyu/Açık tema desteği.
+*   **Client-Side Processing:** All operations are performed in your browser.
+*   **Multiple File Upload:** Upload multiple KML files via drag-and-drop or file selection.
+*   **Individual Styling:** Customize the style for each KML file separately:
+    *   Line Color
+    *   Line Width
+    *   Fill Color
+    *   Fill Opacity
+*   **Merge Files:** Combine your styled KML files into a single document.
+*   **Custom Output Name:** Optionally specify a filename for the merged file.
+*   **Dark/Light Mode:** A comfortable viewing experience in any lighting.
 
-## Nasıl Kullanılır?
+## How to Use
 
-Bu uygulamayı kullanmak için herhangi bir kurulum yapmanıza gerek yoktur. Sadece `index.html` dosyasını bir web tarayıcısında (Google Chrome, Firefox, vb.) açmanız yeterlidir.
+This application is hosted online using GitHub Pages. There is no need to download or install anything. Simply visit the website to use the tool.
 
-1.  **KML Dosyalarını Seçin:** "Select KML Files" butonuna tıklayarak veya dosyalarınızı sürükleyip bırakarak KML dosyalarınızı yükleyin.
-2.  **Stilleri Özelleştirin:** Yüklediğiniz her dosya için istediğiniz renk, kalınlık ve opaklık ayarlarını yapın.
-3.  **Dosya Adı Belirleyin (İsteğe Bağlı):** İndirilecek dosya için özel bir isim belirleyebilirsiniz. Boş bırakırsanız, varsayılan olarak `merged.kml` olarak adlandırılacaktır.
-4.  **Dosyaları Birleştirin:** "Merge Files" butonuna tıklayın.
-5.  **İndirin:** Birleştirilmiş ve stillendirilmiş yeni KML dosyanız tarayıcınız tarafından otomatik olarak indirilecektir.
+### Accessing the Application
+
+You can access the live application at the following URL:
+
+**[https://tasdelenn.github.io/kml_merger/](https://tasdelenn.github.io/kml_merger/)**
+
+*(Note: The owner will need to enable GitHub Pages from the repository settings for this link to be active.)*
+
+### Instructions
+
+1.  **Visit the Website:** Open the link above in your web browser.
+2.  **Select KML Files:** Drag and drop your KML files onto the upload area, or click to select them from your computer.
+3.  **Customize Styles:** For each uploaded file, adjust the color, width, and opacity settings as desired.
+4.  **Set Output Filename (Optional):** If you wish, enter a name for your merged file. The default is `merged.kml`.
+5.  **Merge Files:** Click the "Merge Files" button.
+6.  **Download:** Your new, merged KML file will be automatically downloaded by your browser.
