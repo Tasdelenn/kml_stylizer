@@ -1,60 +1,27 @@
-# KML Merger & Stylizer (Client-Side)
+# KML Birleştirme ve Stil Aracı
 
-KML Merger & Stylizer is a web application that allows users to upload multiple KML files, customize their styles (line color, line width, fill color, fill opacity), and merge them into a single downloadable KML file. All processing is done on the client-side, meaning your files are never uploaded to a server.
+Bu web uygulaması, birden fazla KML dosyasını yüklemenize, her biri için çizgi rengi, çizgi kalınlığı, dolgu rengi ve dolgu opaklığı gibi stilleri özelleştirmenize ve ardından tüm dosyaları tek bir KML dosyasında birleştirip indirmenize olanak tanır.
 
-## Features
+Tüm işlemler sunucuya herhangi bir dosya yüklenmeden, tamamen sizin tarayıcınızda (client-side) gerçekleşir. Bu sayede verileriniz güvende kalır.
 
-*   Upload multiple KML files via selection or drag-and-drop.
-*   Customize style for each KML file individually:
-    *   Line Color
-    *   Line Width
-    *   Fill Color
-    *   Fill Opacity
-*   Merge selected KML files into one.
-*   Specify an optional output filename.
-*   Dark/Light mode for user interface.
-*   Responsive design.
-*   **100% Client-Side:** All KML processing happens in your browser. Your data stays private.
+## Özellikler
 
-## Project Structure
+*   Sürükle-bırak veya dosya seçme yoluyla çoklu KML dosyası yükleme.
+*   Her KML dosyası için ayrı ayrı stil belirleme:
+    *   Çizgi Rengi
+    *   Çizgi Kalınlığı
+    *   Dolgu Rengi
+    *   Dolgu Opaklığı
+*   Seçilen KML dosyalarını tek bir dosyada birleştirme.
+*   İsteğe bağlı olarak bir çıktı dosyası adı belirleme.
+*   Koyu/Açık tema desteği.
 
-```
-.
-├── README.md
-├── index.html       # Frontend HTML, CSS (Tailwind), and JavaScript
-└── test_data/
-    ├── ... (sample KML files)
-```
+## Nasıl Kullanılır?
 
-## Tech Stack
+Bu uygulamayı kullanmak için herhangi bir kurulum yapmanıza gerek yoktur. Sadece `index.html` dosyasını bir web tarayıcısında (Google Chrome, Firefox, vb.) açmanız yeterlidir.
 
-*   **Frontend:** HTML, Tailwind CSS, Vanilla JavaScript
-
-## Setup and Usage
-
-1.  **Open `index.html`:**
-    Simply open the `index.html` file in your web browser. No server or build steps are required.
-
-### How to Use
-
-1.  **Select KML Files:** Click the "Select KML Files" button or drag and drop your KML files onto the designated area.
-2.  **Customize Styles:** For each uploaded file, you can adjust:
-    *   Line Color
-    *   Line Width
-    *   Fill Color
-    *   Fill Opacity (%)
-3.  **Set Output Filename (Optional):** Enter a desired name for the merged file (without the `.kml` extension). If left blank, it defaults to `merged.kml`.
-4.  **Merge Files:** Click the "Merge Files" button.
-5.  **Download:** The merged KML file will be automatically downloaded by your browser.
-
-## Notes
-
-*   The application expects valid KML files. Parsing errors might occur with malformed files.
-*   The styling options are applied to all placemarks within a given KML file.
-*   The `test_data` directory contains sample KML files that can be used for testing.
-
-## Future Enhancements (Potential)
-
-*   More advanced styling options (e.g., icons, labels).
-*   Individual placemark styling.
-*   Preview of KML files on a map before merging.
+1.  **KML Dosyalarını Seçin:** "Select KML Files" butonuna tıklayarak veya dosyalarınızı sürükleyip bırakarak KML dosyalarınızı yükleyin.
+2.  **Stilleri Özelleştirin:** Yüklediğiniz her dosya için istediğiniz renk, kalınlık ve opaklık ayarlarını yapın.
+3.  **Dosya Adı Belirleyin (İsteğe Bağlı):** İndirilecek dosya için özel bir isim belirleyebilirsiniz. Boş bırakırsanız, varsayılan olarak `merged.kml` olarak adlandırılacaktır.
+4.  **Dosyaları Birleştirin:** "Merge Files" butonuna tıklayın.
+5.  **İndirin:** Birleştirilmiş ve stillendirilmiş yeni KML dosyanız tarayıcınız tarafından otomatik olarak indirilecektir.
