@@ -1,4 +1,4 @@
-# KML Merger & Styler
+# KML Merger & Stylizer
 
 This is a browser-based web application that allows you to upload multiple KML files, customize their styles (line color, width, fill color, and opacity), and merge them into a single downloadable KML file.
 
