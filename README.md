@@ -25,7 +25,7 @@ This application is hosted online using GitHub Pages. There is no need to downlo
 
 You can access the live application at the following URL:
 
-**[https://tasdelenn.github.io/kml_merger/](https://tasdelenn.github.io/kml_stylizer/)**
+**[https://tasdelenn.github.io/kml_stylizer/](https://tasdelenn.github.io/kml_stylizer/)**
 
 *(Note: The owner will need to enable GitHub Pages from the repository settings for this link to be active.)*
 
